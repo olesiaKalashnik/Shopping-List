@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ED109471CE695CD00C88BC8 /* FooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED109461CE695CD00C88BC8 /* FooterTableViewCell.swift */; };
 		0EF36ED21CDA7CEF007A7A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36ED11CDA7CEF007A7A23 /* AppDelegate.swift */; };
-		0EF36ED41CDA7CEF007A7A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36ED31CDA7CEF007A7A23 /* ViewController.swift */; };
 		0EF36ED71CDA7CEF007A7A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF36ED51CDA7CEF007A7A23 /* Main.storyboard */; };
 		0EF36EDA1CDA7CEF007A7A23 /* ShoppingList_v_2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36ED81CDA7CEF007A7A23 /* ShoppingList_v_2_0.xcdatamodeld */; };
 		0EF36EDC1CDA7CEF007A7A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF36EDB1CDA7CEF007A7A23 /* Assets.xcassets */; };
 		0EF36EDF1CDA7CEF007A7A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF36EDD1CDA7CEF007A7A23 /* LaunchScreen.storyboard */; };
 		0EF36EEA1CDA7CEF007A7A23 /* ShoppingList_v_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36EE91CDA7CEF007A7A23 /* ShoppingList_v_2_0Tests.swift */; };
 		0EF36EF51CDA7CEF007A7A23 /* ShoppingList_v_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36EF41CDA7CEF007A7A23 /* ShoppingList_v_2_0UITests.swift */; };
+		0EF36F091CDB1618007A7A23 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F021CDB1618007A7A23 /* AddItemViewController.swift */; };
+		0EF36F0A1CDB1618007A7A23 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F031CDB1618007A7A23 /* CheckboxButton.swift */; };
+		0EF36F0B1CDB1618007A7A23 /* CurrentListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F041CDB1618007A7A23 /* CurrentListItemTableViewCell.swift */; };
+		0EF36F0C1CDB1618007A7A23 /* CurrentListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F051CDB1618007A7A23 /* CurrentListTableViewController.swift */; };
+		0EF36F0D1CDB1618007A7A23 /* GlobaListlItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F061CDB1618007A7A23 /* GlobaListlItemTableViewCell.swift */; };
+		0EF36F0E1CDB1618007A7A23 /* GlobalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F071CDB1618007A7A23 /* GlobalListTableViewController.swift */; };
+		0EF36F0F1CDB1618007A7A23 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F081CDB1618007A7A23 /* Lists.swift */; };
+		0EF36F111CDB171B007A7A23 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F101CDB171B007A7A23 /* ShopList.swift */; };
+		0EF36F161CDB1770007A7A23 /* GlobalListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F121CDB1770007A7A23 /* GlobalListEntity+CoreDataProperties.swift */; };
+		0EF36F171CDB1770007A7A23 /* GlobalListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F131CDB1770007A7A23 /* GlobalListEntity.swift */; };
+		0EF36F181CDB1770007A7A23 /* CurrentListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F141CDB1770007A7A23 /* CurrentListEntity+CoreDataProperties.swift */; };
+		0EF36F191CDB1770007A7A23 /* CurrentListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF36F151CDB1770007A7A23 /* CurrentListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED109461CE695CD00C88BC8 /* FooterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterTableViewCell.swift; sourceTree = "<group>"; };
 		0EF36ECE1CDA7CEE007A7A23 /* ShoppingList_v.2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList_v.2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF36ED11CDA7CEF007A7A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EF36ED31CDA7CEF007A7A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EF36ED61CDA7CEF007A7A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EF36ED91CDA7CEF007A7A23 /* ShoppingList_v_2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList_v_2_0.xcdatamodel; sourceTree = "<group>"; };
 		0EF36EDB1CDA7CEF007A7A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		0EF36EF01CDA7CEF007A7A23 /* ShoppingList_v.2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingList_v.2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF36EF41CDA7CEF007A7A23 /* ShoppingList_v_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_v_2_0UITests.swift; sourceTree = "<group>"; };
 		0EF36EF61CDA7CEF007A7A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF36F021CDB1618007A7A23 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		0EF36F031CDB1618007A7A23 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		0EF36F041CDB1618007A7A23 /* CurrentListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListItemTableViewCell.swift; sourceTree = "<group>"; };
+		0EF36F051CDB1618007A7A23 /* CurrentListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListTableViewController.swift; sourceTree = "<group>"; };
+		0EF36F061CDB1618007A7A23 /* GlobaListlItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobaListlItemTableViewCell.swift; sourceTree = "<group>"; };
+		0EF36F071CDB1618007A7A23 /* GlobalListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalListTableViewController.swift; sourceTree = "<group>"; };
+		0EF36F081CDB1618007A7A23 /* Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		0EF36F101CDB171B007A7A23 /* ShopList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
+		0EF36F121CDB1770007A7A23 /* GlobalListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GlobalListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0EF36F131CDB1770007A7A23 /* GlobalListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalListEntity.swift; sourceTree = "<group>"; };
+		0EF36F141CDB1770007A7A23 /* CurrentListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CurrentListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0EF36F151CDB1770007A7A23 /* CurrentListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,10 @@
 		0EF36EC51CDA7CEE007A7A23 = {
 			isa = PBXGroup;
 			children = (
+				0EF36F121CDB1770007A7A23 /* GlobalListEntity+CoreDataProperties.swift */,
+				0EF36F131CDB1770007A7A23 /* GlobalListEntity.swift */,
+				0EF36F141CDB1770007A7A23 /* CurrentListEntity+CoreDataProperties.swift */,
+				0EF36F151CDB1770007A7A23 /* CurrentListEntity.swift */,
 				0EF36ED01CDA7CEE007A7A23 /* ShoppingList_v.2.0 */,
 				0EF36EE81CDA7CEF007A7A23 /* ShoppingList_v.2.0Tests */,
 				0EF36EF31CDA7CEF007A7A23 /* ShoppingList_v.2.0UITests */,
@@ -99,9 +127,17 @@
 		0EF36ED01CDA7CEE007A7A23 /* ShoppingList_v.2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				0EF36ED11CDA7CEF007A7A23 /* AppDelegate.swift */,
-				0EF36ED31CDA7CEF007A7A23 /* ViewController.swift */,
 				0EF36ED51CDA7CEF007A7A23 /* Main.storyboard */,
+				0EF36F101CDB171B007A7A23 /* ShopList.swift */,
+				0EF36F021CDB1618007A7A23 /* AddItemViewController.swift */,
+				0EF36F031CDB1618007A7A23 /* CheckboxButton.swift */,
+				0EF36F041CDB1618007A7A23 /* CurrentListItemTableViewCell.swift */,
+				0EF36F051CDB1618007A7A23 /* CurrentListTableViewController.swift */,
+				0EF36F061CDB1618007A7A23 /* GlobaListlItemTableViewCell.swift */,
+				0ED109461CE695CD00C88BC8 /* FooterTableViewCell.swift */,
+				0EF36F071CDB1618007A7A23 /* GlobalListTableViewController.swift */,
+				0EF36F081CDB1618007A7A23 /* Lists.swift */,
+				0EF36ED11CDA7CEF007A7A23 /* AppDelegate.swift */,
 				0EF36EDB1CDA7CEF007A7A23 /* Assets.xcassets */,
 				0EF36EDD1CDA7CEF007A7A23 /* LaunchScreen.storyboard */,
 				0EF36EE01CDA7CEF007A7A23 /* Info.plist */,
@@ -263,8 +299,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF36EDA1CDA7CEF007A7A23 /* ShoppingList_v_2_0.xcdatamodeld in Sources */,
-				0EF36ED41CDA7CEF007A7A23 /* ViewController.swift in Sources */,
+				0EF36F0D1CDB1618007A7A23 /* GlobaListlItemTableViewCell.swift in Sources */,
+				0EF36F0E1CDB1618007A7A23 /* GlobalListTableViewController.swift in Sources */,
+				0EF36F171CDB1770007A7A23 /* GlobalListEntity.swift in Sources */,
 				0EF36ED21CDA7CEF007A7A23 /* AppDelegate.swift in Sources */,
+				0EF36F0A1CDB1618007A7A23 /* CheckboxButton.swift in Sources */,
+				0EF36F191CDB1770007A7A23 /* CurrentListEntity.swift in Sources */,
+				0ED109471CE695CD00C88BC8 /* FooterTableViewCell.swift in Sources */,
+				0EF36F111CDB171B007A7A23 /* ShopList.swift in Sources */,
+				0EF36F0C1CDB1618007A7A23 /* CurrentListTableViewController.swift in Sources */,
+				0EF36F0B1CDB1618007A7A23 /* CurrentListItemTableViewCell.swift in Sources */,
+				0EF36F091CDB1618007A7A23 /* AddItemViewController.swift in Sources */,
+				0EF36F0F1CDB1618007A7A23 /* Lists.swift in Sources */,
+				0EF36F181CDB1770007A7A23 /* CurrentListEntity+CoreDataProperties.swift in Sources */,
+				0EF36F161CDB1770007A7A23 /* GlobalListEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +539,7 @@
 				0EF36EFB1CDA7CEF007A7A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF36EFC1CDA7CEF007A7A23 /* Build configuration list for PBXNativeTarget "ShoppingList_v.2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +548,7 @@
 				0EF36EFE1CDA7CEF007A7A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF36EFF1CDA7CEF007A7A23 /* Build configuration list for PBXNativeTarget "ShoppingList_v.2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +557,7 @@
 				0EF36F011CDA7CEF007A7A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
